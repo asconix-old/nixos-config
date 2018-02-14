@@ -15,6 +15,10 @@
         psk = lib.removeSuffix "\n" (builtins.readFile ./secrets/psk_brewdog.key);
       };
 
+      "How do I computer?" = {
+        psk = lib.removeSuffix "\n" (builtins.readFile ./secrets/psk_how_do_i_computer.key);
+      };
+
       "Rautheim" = {
         psk = lib.removeSuffix "\n" (builtins.readFile ./secrets/psk_rautheim.key);
       };

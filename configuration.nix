@@ -16,6 +16,7 @@
       ./desktop.nix
       ./audio.nix
       ./virtualization.nix
+      ./dotfiles.nix
       ./hosts/dorian.nix
 #     ./hosts/shodan.nix
 #     ./hosts/whisper.nix

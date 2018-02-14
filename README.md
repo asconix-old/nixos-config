@@ -12,6 +12,7 @@ To clone them, run the following command:
 
 ```bash
 $ git submodule update --init
+$ git submodule foreach git pull origin master
 ```
 
 Finally apply all Nix definitions:

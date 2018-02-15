@@ -1,6 +1,6 @@
 # Virtualization
 
-( ):
+{ config, lib, modulesPath, options }:
 
 {
   virtualisation = {

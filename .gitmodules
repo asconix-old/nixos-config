@@ -1,0 +1,3 @@
+[submodule "dotfiles-global"]
+	path = dotfiles-global
+	url = git@github.com:asconix/dotfiles-global

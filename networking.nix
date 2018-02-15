@@ -33,6 +33,7 @@
 
       "AIRPORT" = {};
       "espressohouse" = {};
+      "Leos_surf" = {};
       "Lorry Gjest" = {};
       "NSB_INTERAKTIV" = {};
       "wifi.flytoget.no" = {};

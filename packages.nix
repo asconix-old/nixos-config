@@ -5,32 +5,34 @@
 let 
 
   terminalApps = with pkgs; [
+    curl
+    fish
     git
+    google-cloud-sdk
+    manpages
+    nixops
+    pass
+    tig
     tmux
+    tree
+    unzip
     vim
-    zsh
+    wget
   ];
 
   desktopApps = with pkgs; [
+    alacritty
     firefox-bin
+    gnome3.evolution
+    xorg.xev
   ];
-
-  i3Packages = with pkgs; {
-    inherit
-      i3
-      i3lock-fancy
-      i3status;
-  };
 
 in {
 
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs;
-      (builtins.attrValues (
-        i3Packages // {}
-      ))
-      ++ terminalApps
+      terminalApps
       ++ desktopApps;
 }
 

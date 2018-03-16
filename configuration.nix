@@ -17,9 +17,7 @@
       ./audio.nix
       ./virtualization.nix
       ./dotfiles.nix
-      ./hosts/dorian.nix
-#     ./hosts/shodan.nix
-#     ./hosts/whisper.nix
+      ./host.nix
     ];
 
   # List packages installed in system profile. To search by name, run:

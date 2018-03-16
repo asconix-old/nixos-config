@@ -3,5 +3,8 @@
 { config, lib, modulesPath, options }:
 
 {
-  services.openssh.enable = true;
+  services.openssh = {
+    enable = true;
+    permitRootLogin = "yes";
+  };
 }

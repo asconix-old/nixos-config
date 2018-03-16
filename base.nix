@@ -4,6 +4,6 @@
 
 {
   system.stateVersion = "17.09";
-  environment.variables.TERM = "vt100";
+  environment.variables.TERM = "xterm-256color";
 }
 

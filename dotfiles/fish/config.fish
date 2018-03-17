@@ -29,3 +29,4 @@ alias edit 'emacsclient -n'
 
 # Old habits die hard (also ls is just easier to type):
 alias ls 'exa'
+

@@ -262,3 +262,4 @@ live_config_reload: true
 
 shell:
   program: tmux
+

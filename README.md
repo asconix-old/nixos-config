@@ -15,6 +15,13 @@ $ git submodule update --init
 $ git submodule foreach git pull origin master
 ```
 
+Set a symbolic link for the host that you want to provision and orchestrate:
+
+```
+# ln -s hosts/<host_type>/<host_name>.nix host.nix
+```
+
+
 Finally apply all Nix definitions:
 
 ```bash
